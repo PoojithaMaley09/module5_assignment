@@ -39,7 +39,7 @@ your-repo-name/
 │   ├── tailwind.config.js
 │   ├── tsconfig.json
 │   ├── tsconfig.app.json
-│   └── vite.config.ts          👈 ✅ newly added
+│   └── vite.config.ts         
 │
 ├── backend/
 │   ├── src/
@@ -63,7 +63,7 @@ your-repo-name/
 ### 1. Clone the repo
 
 ```
-cd lms-auth-system/client
+cd module5_assignent
 ```
 
 ### 2. Install dependencies
@@ -88,9 +88,7 @@ npm run dev
 -  Login & Register forms with validation  
 - Email format check using regex  
 -  Inline error messages on invalid input  
--  Beautiful Tailwind CSS UI  
--  Page routing using React Router  
--  Clean modular structure  
+ 
 
 ---
 
@@ -104,25 +102,8 @@ npm run dev
 - `vite`  
 - `typescript`  
 
----
 
-##  Screenshots
 
-###  Register Page
-
-![Screenshot 2025-07-04 171832.png]
-
-###  Login Page
-
-![Screenshot 2025-07-04 171913.png] 
-
-> 💡 _You can take your own screenshots and place them inside a `/screenshots` folder._
-
----
-
-## 🛠️ Customization
-
-You can enhance the project by:
 
 - 🔐 Integrating real backend authentication (JWT / Sessions)  
 - 🔑 Adding strong password & confirm password fields  
